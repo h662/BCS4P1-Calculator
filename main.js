@@ -1,5 +1,9 @@
-let result = 0;
-
 const resultEl = document.querySelector(".result");
 
-resultEl.innerText = result;
+function inputResult(value) {
+  result = value || 0;
+
+  resultEl.innerText = result;
+}
+
+inputResult();
