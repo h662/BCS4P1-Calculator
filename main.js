@@ -18,4 +18,8 @@ function clickNumber(number) {
   inputResult(numberValue);
 }
 
+function clickDel() {
+  inputResult(result.substring(0, result.length - 1));
+}
+
 inputResult();
